@@ -1,4 +1,4 @@
-<h1 align="center">Projeto MINI GELADEIRA PORTÁTIL IOT PARA TRANSPORTE DE VACINAS</h1>
+<h1 align="center">Projeto MINI GELADEIRA PORTÁTIL IoT PARA TRANSPORTE DE VACINAS</h1>
 
 <p align="center">
   <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
@@ -6,92 +6,134 @@
 
 ---
 
-## Ferramentas e Tecnologias
+## 🛠 Ferramentas e Tecnologias
 
-<img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" width="40" height="40"/> <img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-7YgpVL5SmYjtBHrZ_bqsaDHsVNhnC9PBdg&s" width="40" height="40"/> <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" width="40" height="40"/> <img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="40" height="40"/>
-
-## Descrição do Projeto
-
-**Mini geladeira portátil IoT para transporte de vacinas** com controle ativo por célula Peltier e
-monitoramento de cadeia de frio, que mantém e monitora, em tempo real, a temperatura
-interna do compartimento de vacinas durante o transporte, registrando dados e emitindo
-alertas.
-
-
-### Principais objetivos:
-
-Projetar e implementar um protótipo de sistema IoT que seja capaz de manter as vacinas entre
-2 e 8 °C durante o transporte, com controle térmico ativo utilizando célula Peltier, telemetria,
-alarmística e registro histórico para garantir a qualidade e rastreabilidade da cadeia de frio.
+<img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/arduino/arduino-original.svg" width="50" height="50"/>
+<img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" width="50" height="50"/>
+<img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="50" height="50"/>
+<img loading="lazy" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" width="50" height="50"/>
 
 ---
 
-## JUSTIFICATIVA
+## 📌 Descrição do Projeto
 
-A eficácia de diversas vacinas depende da permanência em uma faixa térmica restrita de
-temperatura. Em rotas móveis, campanhas itinerantes e áreas remotas falhas como as
-listadas podem ocorrer:
-- Ausência de controle ativo: caixas térmicas passivas perdem eficiência com o
-tempo e com aberturas frequentes de tampa.
-- Risco de congelamento
-• Baixa visibilidade e rastreabilidade
-Podendo acarretar em descartes de lotes, custos elevados e risco à saúde pública.
-O sistema proposto visa reduzir perdas e aumentar a segurança do processo por meio de
-um controle térmico de precisão com IoT para detecção preventiva desses fatores
+A **Mini Geladeira Portátil IoT para Transporte de Vacinas** é um protótipo desenvolvido para manter a temperatura de imunobiológicos dentro da faixa segura de **2°C a 8°C** durante o transporte.  
+O sistema utiliza **célula Peltier, sensores internos, IoT e alarmística**, garantindo monitoramento em tempo real, telemetria, rastreabilidade e controle ativo da cadeia de frio.
 
 ---
 
-## METODOLOGIA
+## 🎯 Objetivos Principais
 
-O desenvolvimento do protótipo da mini geladeira portátil IoT para transporte de vacinas será
-realizado de forma estruturada, em etapas que contemplam desde a concepção mecânica até
-a validação experimental. A metodologia segue a lógica de construção incremental, em que
-cada subsistema é projetado, implementado e testado individualmente, para em seguida ser
-integrado ao sistema completo. Após a especificação da lista de materiais que serão utilizados
-no projeto, seguiremos o seguinte cronograma de projeto:
-
+- Desenvolver um sistema IoT capaz de manter vacinas refrigeradas entre **2 e 8 °C**.
+- Utilizar **célula Peltier** com controle térmico ativo.
+- Registrar e monitorar temperatura, umidade, abertura da tampa e condições gerais.
+- Emitir alertas locais e remotos em caso de falhas.
+- Garantir **rastreabilidade**, **segurança térmica** e **confiabilidade** no transporte.
 
 ---
 
-## :hammer: Funcionalidades e Demonstração da Aplicação
+## 📝 Justificativa
 
-- `Monitoramento de Umidade do Solo`:  
-  Sensores captam a umidade do solo e acionam automaticamente o sistema de irrigação quando necessário.  
+A eficácia das vacinas depende da conservação dentro de uma faixa térmica estreita. Durante transportes móveis podem ocorrer falhas como:
 
-- `Detecção de Movimento`:  
-  Sensores de presença ativam dispositivos como luzes ou alarmes, automatizando ações e economizando energia.  
+- Ausência de controle ativo (caixas térmicas passivas perdem eficiência).
+- Risco de congelamento inesperado.
+- Baixa rastreabilidade e monitoramento ineficiente.
 
-- `Irrigação Automatizada`:  
-  Controla a bomba hidráulica com base nos dados dos sensores, garantindo cuidado eficiente com plantas.  
+Tais problemas podem causar:
+- Perda de lotes,
+- Custos elevados,
+- Riscos à saúde pública.
 
-- `Controle de Luzes`:  
-  Permite ligar e desligar luzes remotamente através do aplicativo desenvolvido no App Inventor.  
-
-- `Central de Controle via Aplicativo`:  
-  Aplicativo centraliza o gerenciamento dos sensores e dispositivos, oferecendo praticidade ao usuário.
-
-> *Demonstrações visuais, como vídeos ou imagens, serão adicionadas em breve.*
+A solução proposta melhora o controle térmico e fornece monitoramento contínuo via IoT, reduzindo perdas e aumentando a segurança operacional.
 
 ---
 
-## Integrantes do Projeto
+## 🧪 Metodologia do Projeto
 
-- `João Pedro Mendanha Ribeiro`
+O projeto segue uma abordagem **incremental**, com desenvolvimento e teste de cada subsistema antes da integração completa.
 
-- `Luiz Felipe Santos Attie`
+### 🧱 1. Estrutura física e isolamento térmico
+Construção da caixa térmica utilizando **EPS/XPS** para minimizar trocas térmicas e melhorar a eficiência da célula Peltier.
 
-- `Pedro Henrique Simao Diniz`
+### ❄ 2. Sistema de Refrigeração (Célula Peltier)
+- Lado frio acoplado a uma *cold plate* metálica.
+- Lado quente acoplado a um dissipador com ventoinha.
+- Sistema dimensionado para estabilidade e eficiência.
+
+### 🔄 3. Circulação interna de ar
+Ventoinha interna para evitar pontos frios e assegurar homogeneidade térmica.
+
+### 🌡 4. Sensoriamento
+- Sensor de temperatura do ar interno.  
+- Sensor de temperatura no centro da carga (frasco simulado).  
+- Sensor de umidade relativa.  
+- Sensor magnético (reed switch) para detecção de abertura da tampa.  
+
+### 🔌 5. Controle Eletrônico e IoT
+- Microcontrolador **ESP32** para:
+  - Leitura dos sensores,
+  - Controle PWM da célula Peltier,
+  - Alarmes visuais e sonoros,
+  - Envio de dados para aplicativo via Bluetooth/Internet.
+
+### 🔋 6. Alimentação e Autonomia
+Bateria recarregável de íons de lítio com proteção e autonomia estimada em **4 horas**, permitindo transporte seguro sem energia externa.
+
+### 📱 7. Interface com o Usuário
+- LEDs (verde – normal / vermelho – falha),
+- Buzzer para alertas críticos,
+- Aplicativo móvel exibindo temperatura, umidade, bateria e eventos.
+
+### 🧪 8. Testes e Validação
+Serão realizados:
+- Teste de estabilização térmica,
+- Teste de recuperação após abertura da tampa,
+- Teste de autonomia da bateria,
+- Teste dos alarmes e telemetria.
 
 ---
 
-## Acesso ao Projeto.
-### Para clonar e acessar o projeto localmente:
-1. Clone o repositório:  
-   ```bash
-   git clone https://github.com/joaopedromribeiro13/casa_automatica.git
+## :hammer: Funcionalidades
 
+- **Controle ativo da temperatura (célula Peltier + PWM)**  
+  Mantém o interior sempre entre **2°C e 8°C**.
 
+- **Monitoramento IoT em tempo real**  
+  Dados enviados para aplicativo via Bluetooth ou nuvem.
 
-<h4 align="center">    
- :construction:  Projeto em construção  :construction:
-</h4>
+- **Registro histórico e rastreabilidade**  
+  Histórico de temperatura, umidade e eventos.
+
+- **Alarmes locais (LEDs e buzzer)**  
+  Ativados quando a temperatura sai da faixa segura.
+
+- **Alerta de abertura da tampa**  
+  Via sensor magnético tipo reed switch.
+
+- **Autonomia operacional**  
+  Bateria garante operação durante o transporte.
+
+> *Imagens, esquemas elétricos e vídeos serão adicionados futuramente.*
+
+---
+
+## 👨‍🏫 Integrantes do Projeto
+- **Beatriz Pimenta**  
+- **João Pedro Mendanha**  
+- **Júlia Resende**  
+- **Kethellen da Silva**  
+- **Rafael dos Santos**
+
+---
+
+## 📚 Disciplina
+**Internet das Coisas – PUC Minas**  
+Professor: **Júlio Conway**
+
+---
+
+## 📅 Data
+**31 de Agosto de 2025**
+
+---
